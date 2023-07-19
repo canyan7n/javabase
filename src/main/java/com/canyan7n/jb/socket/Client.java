@@ -13,14 +13,14 @@ public class Client {
             Socket socket = new Socket("127.0.0.1",8888);
             //通过socket的流对象 创建printwriter发送数据 创建bufferreader接收数据
             PrintWriter printWriter = new PrintWriter(socket.getOutputStream());
-            BufferedReader bufferedReader = new BufferedReader(
-                    new InputStreamReader(socket.getInputStream())
-            );
             //发送数据
             String requestData = "客户端请求的数据";
             printWriter.println(requestData);
             printWriter.flush();
             //接收服务器的响应数据
+            BufferedReader bufferedReader = new BufferedReader(
+                    new InputStreamReader(socket.getInputStream())
+            );
             String responseData = bufferedReader.readLine();
             System.out.println("服务器的响应数据：" + responseData);
             //关闭资源
