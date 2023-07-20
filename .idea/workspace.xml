@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19a508a6-901c-4c3a-b7d8-5b6be9947ea4" name="Changes" comment="commit on idea in connectUtil">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/socket_/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/socket_/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/docParsing/DocParsing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/socket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/socket/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Data/JavaWorkSpace/ideaProject/SSM",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Data/JavaWorkSpace/ideaProject/SSM&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Client">
+}</component>
+  <component name="RunManager" selected="Application.DocParsing">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.canyan7n.jb.socket.Client" />
       <module name="javabase" />
@@ -74,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectToPgSql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.canyan7n.jb.jdbc.ConnectToPgSql" />
+    <configuration name="DocParsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.canyan7n.jb.docParsing.DocParsing" />
       <module name="javabase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.canyan7n.jb.jdbc.*" />
+          <option name="PATTERN" value="com.canyan7n.jb.docParsing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DocParsing" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.com.canyan7n.jb.socket_.Server" />
         <item itemvalue="Application.com.canyan7n.jb.socket_.Client" />
-        <item itemvalue="Application.ConnectToPgSql" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +152,8 @@
       <workItem from="1688023223017" duration="54000" />
       <workItem from="1688023293279" duration="30000" />
       <workItem from="1689142052071" duration="2725000" />
-      <workItem from="1689737608927" duration="8236000" />
+      <workItem from="1689737608927" duration="8861000" />
+      <workItem from="1689818918107" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="commit on idea in socketDemo">
       <created>1687244133016</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689755711144</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit on idea in connectUtil">
+      <created>1689757515656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689757515656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
