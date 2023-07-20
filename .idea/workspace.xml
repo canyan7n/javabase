@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19a508a6-901c-4c3a-b7d8-5b6be9947ea4" name="Changes" comment="commit on idea in word parsing">
-      <change afterPath="$PROJECT_DIR$/1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/docParsing/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="19a508a6-901c-4c3a-b7d8-5b6be9947ea4" name="Changes" comment="commit on idea in excel parsing">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/docParsing/DocParsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/docParsing/DocParsing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +155,7 @@
       <workItem from="1689142052071" duration="2725000" />
       <workItem from="1689737608927" duration="8861000" />
       <workItem from="1689818918107" duration="3480000" />
-      <workItem from="1689836674981" duration="3172000" />
+      <workItem from="1689836674981" duration="3545000" />
     </task>
     <task id="LOCAL-00001" summary="commit on idea in socketDemo">
       <created>1687244133016</created>
@@ -197,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689822552269</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit on idea in excel parsing">
+      <created>1689841291756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689841291756</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +222,8 @@
     <MESSAGE value="commit on idea in ConnectToMySQL" />
     <MESSAGE value="commit on idea in connectUtil" />
     <MESSAGE value="commit on idea in word parsing" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit on idea in word parsing" />
+    <MESSAGE value="commit on idea in excel parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit on idea in excel parsing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

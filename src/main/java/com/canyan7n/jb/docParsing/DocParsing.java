@@ -1,5 +1,7 @@
 package com.canyan7n.jb.docParsing;
 
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -10,6 +12,7 @@ import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.List;
 
 /**
@@ -25,7 +28,8 @@ import java.util.List;
 public class DocParsing {
     public static void main(String[] args) throws Exception{
         //word();
-        excel();
+//        excel();
+        pdf();
     }
     public static void word()throws Exception{
         FileInputStream fileInputStream = new FileInputStream(new File("1.docx"));
@@ -64,5 +68,13 @@ public class DocParsing {
         }
         sheets.close();
         fileInputStream.close();
+    }
+    public static void pdf()throws Exception{
+        File file = new File("1.pdf");
+        PDDocument document = PDDocument.load(file);
+        PDFTextStripper pdfTextStripper = new PDFTextStripper();
+        String text = pdfTextStripper.getText(document);
+        System.out.println(text);
+        document.close();
     }
 }
