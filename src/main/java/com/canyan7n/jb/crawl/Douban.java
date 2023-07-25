@@ -22,7 +22,7 @@ public class Douban {
         chromeDriver.get("https://movie.douban.com/top250");
         chromeDriver.manage().window().maximize();
 //        chromeDriver.findElement();
-        String pageSource = chromeDriver.getPageSource();
+
     }
 
 }
