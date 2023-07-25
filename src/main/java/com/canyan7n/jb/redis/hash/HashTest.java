@@ -1,6 +1,8 @@
 package com.canyan7n.jb.redis.hash;
 
+import com.alibaba.fastjson.JSON;
 import com.canyan7n.jb.redis.entity.Animal;
+import com.canyan7n.jb.redis.entity.User;
 import com.canyan7n.jb.redis.util.ConnectToRedis;
 import com.google.gson.Gson;
 import com.mysql.cj.xdevapi.JsonString;
@@ -25,7 +27,8 @@ import java.util.Set;
 
 public class HashTest {
     public static void main(String[] args) {
-        test01();
+        //test01();
+        test02();
     }
     public static void test01(){
         Jedis connect = ConnectToRedis.getConnect();
@@ -75,5 +78,16 @@ public class HashTest {
         } catch (UnsupportedEncodingException e) {
             throw new RuntimeException(e);
         }
+    }
+    public static void test02(){
+        Jedis connect = ConnectToRedis.getConnect();
+        connect.select(1);
+
+        HashMap<String, String> hashMap = new HashMap<>();
+        User user = new User("张三", "20");
+        String value = JSON.toJSONString(user);
+        hashMap.put("1",value);
+
+        connect.hset("User",hashMap);
     }
 }

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19a508a6-901c-4c3a-b7d8-5b6be9947ea4" name="Changes" comment="master commit on idea in ConnectToRedis">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/entity/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/hash/HashTest.java" afterDir="false" />
+    <list default="true" id="19a508a6-901c-4c3a-b7d8-5b6be9947ea4" name="Changes" comment="master commit on idea in hash">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/hash/HashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/hash/HashTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/string/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/util/ConnectToRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/util/ConnectToRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.HashTest">
+  <component name="RunManager" selected="Application.StringTest">
     <configuration name="ConnectToRedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.canyan7n.jb.redis.ConnectToRedis" />
       <module name="javabase" />
@@ -131,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashTest" />
         <item itemvalue="Application.StringTest" />
+        <item itemvalue="Application.HashTest" />
         <item itemvalue="Application.ConnectToRedis" />
         <item itemvalue="Application.Douban" />
         <item itemvalue="Application.DocParsing" />
@@ -160,7 +162,7 @@
       <workItem from="1689818918107" duration="3480000" />
       <workItem from="1689836674981" duration="7190000" />
       <workItem from="1689901626658" duration="3112000" />
-      <workItem from="1690254527609" duration="3626000" />
+      <workItem from="1690254527609" duration="6211000" />
     </task>
     <task id="LOCAL-00001" summary="commit on idea in socketDemo">
       <created>1687244133016</created>
@@ -225,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690255233011</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="master commit on idea in hash">
+      <created>1690266871171</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690266871171</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +261,8 @@
     <MESSAGE value="commit on idea in pdf parsing" />
     <MESSAGE value="commit on idea in chromedriver openpage" />
     <MESSAGE value="master commit on idea in ConnectToRedis" />
-    <option name="LAST_COMMIT_MESSAGE" value="master commit on idea in ConnectToRedis" />
+    <MESSAGE value="master commit on idea in hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="master commit on idea in hash" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
