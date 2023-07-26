@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19a508a6-901c-4c3a-b7d8-5b6be9947ea4" name="Changes" comment="master commit on idea in ConnectToRedis method change to propertities">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/time/RandomTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/1.xlsx" afterDir="false" />
+    <list default="true" id="19a508a6-901c-4c3a-b7d8-5b6be9947ea4" name="Changes" comment="master commit on idea in img verity">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/serializer_/SerializerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/redis/string/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/veritf/CodeImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/canyan7n/jb/veritf/CodeImage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,26 +62,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.CodeImage">
+  <component name="RunManager" selected="Application.SerializerTest">
     <configuration name="CodeImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.canyan7n.jb.veritf.CodeImage" />
       <module name="javabase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.canyan7n.jb.veritf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectToRedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.canyan7n.jb.redis.ConnectToRedis" />
-      <module name="javabase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.canyan7n.jb.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SerializerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.canyan7n.jb.serializer_.SerializerTest" />
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.canyan7n.jb.serializer_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.canyan7n.jb.redis.string.StringTest" />
       <module name="javabase" />
@@ -139,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializerTest" />
         <item itemvalue="Application.CodeImage" />
         <item itemvalue="Application.RandomTimeTest" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.HashTest" />
-        <item itemvalue="Application.ConnectToRedis" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +161,7 @@
       <workItem from="1689901626658" duration="3112000" />
       <workItem from="1690254527609" duration="8420000" />
       <workItem from="1690274482618" duration="4453000" />
+      <workItem from="1690352560001" duration="909000" />
     </task>
     <task id="LOCAL-00001" summary="commit on idea in socketDemo">
       <created>1687244133016</created>
@@ -248,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690269395691</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="master commit on idea in img verity">
+      <created>1690352603787</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690352603787</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +276,8 @@
     <MESSAGE value="master commit on idea in ConnectToRedis" />
     <MESSAGE value="master commit on idea in hash" />
     <MESSAGE value="master commit on idea in ConnectToRedis method change to propertities" />
-    <option name="LAST_COMMIT_MESSAGE" value="master commit on idea in ConnectToRedis method change to propertities" />
+    <MESSAGE value="master commit on idea in img verity" />
+    <option name="LAST_COMMIT_MESSAGE" value="master commit on idea in img verity" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
