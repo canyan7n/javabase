@@ -23,25 +23,21 @@ import java.util.HashMap;
 
 public class StringTest {
     public static void main(String[] args) {
-//        test01();
-        test02();
+        test01();
+        //test02();
     }
     public static void test01(){
         Jedis connect = ConnectToRedis.getConnect();
         connect.select(1);
 
         String key = "1";
-        User user = new User("张三", "20");
-        String value = JSON.toJSONString(user);
+        String value = "马成";
+        connect.set(key,value);
 
-        try {
-            connect.set(key.getBytes("utf-8"),value.getBytes("utf-8"));
-        } catch (UnsupportedEncodingException e) {
-            throw new RuntimeException(e);
-        }
     }
     public static void test02(){
         Jedis connect = ConnectToRedis.getConnect();
         connect.select(1);
+
     }
 }
